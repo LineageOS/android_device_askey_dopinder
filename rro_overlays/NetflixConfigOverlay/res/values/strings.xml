@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nrdp_platform_capabilities">{\"vp9Disabled\":\"true\",\"hdrOutputType\":\"always\",\"minVideoFramesForPlaybackStart\":\"50\"}</string>
+    <string name="nrdp_audio_platform_capabilities">{\"audiocaps\":{\"continuousAudio\":false,\"aaudio\":true,\"uiAudioBufferDelayOffset\":110,\"pcm\":{\"mixing\":true,\"transition\":ease},\"ddplus\":{\"mixing\":false,\"transition\":mute},\"atmos\":{\"enabled\":false,\"mixing\":false,\"transition\:mute}}}</string>
+    <!-- The Lineage NRDP configuration app doesn't yet support MS12, this is here for future reference. -->
+    <!--string name="nrdp_audio_platform_capabilities_ms12">{\"audiocaps\":{\"continuousAudio\":true,\"aaudio\":true,\"uiAudioBufferDelayOffset\":120,\"pcm\":{\"mixing\":true,\"transition\":ease,\"continuous\":true},\"ddplus\":{\"mixing\":true,\"transition\":ease,\"continuous\":true},\"atmos\":{\"enabled\":true,\"mixing\":true,\"transition\":ease,\"continuous\":true}}}</string-->
+</resources>

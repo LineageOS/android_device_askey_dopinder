@@ -30,6 +30,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
 
+## Netflix
+PRODUCT_PACKAGES += \
+    NetflixConfig \
+    NetflixConfigOverlay
+
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/g12-common/g12.mk)
 
