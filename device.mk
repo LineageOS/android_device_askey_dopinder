@@ -18,10 +18,15 @@ include hardware/realtek/rtkbt/rtkbt.mk
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
 
+## Keyhandler
+PRODUCT_PACKAGES += \
+    KeyHandler
+
 ## Kernel Modules
 PRODUCT_PACKAGES += \
     8822cs
 
 ## Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay
+    $(DEVICE_PATH)/overlay \
+    $(DEVICE_PATH)/overlay-lineage
