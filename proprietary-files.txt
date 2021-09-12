@@ -3,6 +3,9 @@
 
 ## Keylayout
 vendor/usr/keylayout/Vendor_0001_Product_0001.kl
+vendor/usr/keylayout/Vendor_0957_Product_0004.kl
+vendor/usr/keylayout/Vendor_0957_Product_0005.kl
+vendor/usr/keylayout/Vendor_248a_Product_8266.kl
 
 ## TEE Applets
 vendor/lib/teetz/00d1ca22-1764-4e35-90aa5b8c12630764.ta
