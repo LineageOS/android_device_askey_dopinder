@@ -5,7 +5,6 @@
 vendor/usr/idc/Vendor_0110_Product_0508.idc
 vendor/usr/idc/Vendor_0508_Product_0110.idc
 vendor/usr/idc/Vendor_0957_Product_0004.idc
-vendor/usr/idc/Vendor_0957_Product_0005.idc
 vendor/usr/idc/Vendor_1d5a_Product_c082.idc
 vendor/usr/idc/Vendor_248a_Product_8266.idc
 vendor/usr/idc/Vendor_7545_Product_0171.idc
