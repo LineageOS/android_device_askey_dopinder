@@ -5,6 +5,7 @@
 #
 
 ## Bluetooth
+bluetooth.device.default_name=ONN 4K Box
 bluetooth.profile.a2dp.sink.enabled=false
 bluetooth.profile.avrcp.controller.enabled=false
 bluetooth.profile.hfp.ag.enabled=false
