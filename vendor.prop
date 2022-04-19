@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Dolby
+ro.vendor.platform.support.dolbyvision=false
+
 ## NRDP
 ro.vendor.nrdp.modelgroup=STI6140D360
 ro.vendor.nrdp.oemmodel=Onn_sti6140d360
