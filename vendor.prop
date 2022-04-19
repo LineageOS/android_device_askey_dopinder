@@ -11,3 +11,6 @@ vendor.media.support.dolbyvision=false
 ## NRDP
 ro.vendor.nrdp.modelgroup=STI6140D360
 ro.vendor.nrdp.oemmodel=Onn_sti6140d360
+
+## SOC
+ro.soc.model=AMLS905X2
