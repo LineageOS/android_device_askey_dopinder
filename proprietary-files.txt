@@ -23,6 +23,9 @@ vendor/usr/keylayout/Vendor_248a_Product_8266.kl
 vendor/usr/keylayout/Vendor_248a_Product_8266.kl
 vendor/usr/keylayout/Vendor_7545_Product_0171.kl
 
+## DRM
+vendor/lib/liboemcrypto.so
+
 ## TEE Applets
 vendor/lib/teetz/00d1ca22-1764-4e35-90aa5b8c12630764.ta
 vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b0002a5d5c51b.ta
