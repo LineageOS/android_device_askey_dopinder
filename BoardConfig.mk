@@ -1,10 +1,8 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021-2022 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
-include device/amlogic/g12-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/askey/dopinder
 
@@ -25,3 +23,6 @@ BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_rtl
 BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_rtl
 WIFI_DRIVER_SOCKET_IFACE := wlan0
 PRODUCT_CFI_INCLUDE_PATHS += hardware/realtek/wlan/wpa_supplicant_8_lib
+
+## Include the common tree BoardConfig makefile
+include device/amlogic/g12-common/BoardConfigCommon.mk
