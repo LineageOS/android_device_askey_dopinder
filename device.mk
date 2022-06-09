@@ -8,6 +8,11 @@
 BOARD_HAVE_BLUETOOTH_RTK_TV := true
 include hardware/realtek/rtkbt/rtkbt.mk
 
+## GMS
+ifeq ($(WITH_GMS),true)
+GMS_MAKEFILE=gms_minimal.mk
+endif
+
 ## Init-Files
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
