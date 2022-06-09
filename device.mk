@@ -4,8 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, vendor/askey/dopinder/dopinder-vendor.mk)
-
 ## Bluetooth
 BOARD_HAVE_BLUETOOTH_RTK_TV := true
 include hardware/realtek/rtkbt/rtkbt.mk
@@ -24,3 +22,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/g12-common/g12.mk)
+
+## Inherit from the proprietary files makefile
+$(call inherit-product, vendor/askey/dopinder/dopinder-vendor.mk)

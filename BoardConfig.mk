@@ -26,3 +26,6 @@ PRODUCT_CFI_INCLUDE_PATHS += hardware/realtek/wlan/wpa_supplicant_8_lib
 
 ## Include the common tree BoardConfig makefile
 include device/amlogic/g12-common/BoardConfigCommon.mk
+
+## Include the proprietary BoardConfig makefile
+include vendor/askey/dopinder/BoardConfigVendor.mk
