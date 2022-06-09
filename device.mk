@@ -8,8 +8,6 @@ DEVICE_PATH := device/askey/dopinder
 
 $(call inherit-product, vendor/askey/dopinder/dopinder-vendor.mk)
 
-$(call inherit-product, device/amlogic/g12-common/g12.mk)
-
 ## Bluetooth
 BOARD_HAVE_BLUETOOTH_RTK_TV := true
 include hardware/realtek/rtkbt/rtkbt.mk
@@ -25,3 +23,6 @@ PRODUCT_PACKAGES += \
 ## Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
+
+## Common Tree
+$(call inherit-product, device/amlogic/g12-common/g12.mk)

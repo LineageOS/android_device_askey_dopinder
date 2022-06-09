@@ -4,8 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-include device/amlogic/g12-common/BoardConfigCommon.mk
-
 DEVICE_PATH := device/askey/dopinder
 
 ## Bootloader
@@ -25,3 +23,6 @@ BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_rtl
 BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_rtl
 WIFI_DRIVER_SOCKET_IFACE := wlan0
 PRODUCT_CFI_INCLUDE_PATHS += hardware/realtek/wlan/wpa_supplicant_8_lib
+
+## Common Tree
+include device/amlogic/g12-common/BoardConfigCommon.mk
