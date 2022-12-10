@@ -14,3 +14,6 @@ ro.vendor.nrdp.oemmodel=Onn_sti6140d360
 
 ## SOC
 ro.soc.model=AMLS905X2
+
+## Wi-Fi
+vendor.bcm_wifi=rtl
