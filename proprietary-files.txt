@@ -23,6 +23,8 @@ vendor/usr/keylayout/Vendor_7545_Product_0171.kl
 
 ## DRM
 vendor/lib/liboemcrypto.so
+# From 12 STT1.211025.001.Z4 7928920 release-keys
+vendor/lib/libsecmem.so|291be9306e69f3b53c2c3526e128c1c283a15ce1
 
 ## TEE Applets
 vendor/lib/teetz/00d1ca22-1764-4e35-90aa5b8c12630764.ta
