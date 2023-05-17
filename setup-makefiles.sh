@@ -10,7 +10,7 @@ set -e
 
 export DEVICE=dopinder
 export DEVICE_COMMON=g12-common
+export VENDOR=askey
 export VENDOR_COMMON=amlogic
-export VENDOR_DEVICE=askey
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
