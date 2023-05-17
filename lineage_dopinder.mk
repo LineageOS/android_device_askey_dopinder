@@ -23,6 +23,6 @@ PRODUCT_NAME := lineage_dopinder
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=dopinder \
-    PRIVATE_BUILD_DESC="sti6140d360-user 10 QT 20220523 release-keys"
+    PRIVATE_BUILD_DESC="sti6140d360-user 10 QT 20230222 release-keys"
 
-BUILD_FINGERPRINT := Onn/sti6140d360/sti6140d360:10/QT/20220523:user/release-keys
+BUILD_FINGERPRINT := Onn/sti6140d360/sti6140d360:10/QT/20230222:user/release-keys

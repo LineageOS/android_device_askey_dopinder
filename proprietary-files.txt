@@ -1,5 +1,5 @@
 ### All blobs from this list, unless pinned and noted as otherwise,
-##  are from sti6140d360-user 10 QT 20220523 release-keys.
+##  are from sti6140d360-user 10 QT 20230222 release-keys.
 
 ## Keylayout
 vendor/usr/idc/Vendor_0508_Product_0110.idc
