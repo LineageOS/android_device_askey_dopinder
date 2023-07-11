@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2022 The LineageOS Project
+# Copyright (C) 2021-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -11,6 +11,9 @@ TARGET_BOOTLOADER_BOARD_NAME := sti6140d360
 
 ## DTB
 TARGET_DTB_NAME := g12a_s905x2_u212_sti6130d3x0
+
+## Partitions
+BOARD_SUPER_PARTITION_SIZE := 1677721600
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
