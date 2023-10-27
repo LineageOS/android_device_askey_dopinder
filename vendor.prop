@@ -1,8 +1,21 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+
+## Bluetooth
+bluetooth.profile.a2dp.sink.enabled=false
+bluetooth.profile.avrcp.controller.enabled=false
+bluetooth.profile.hfp.ag.enabled=false
+bluetooth.profile.hfp.hf.enabled=false
+bluetooth.profile.map.client.enabled=false
+bluetooth.profile.map.server.enabled=true
+bluetooth.profile.opp.enabled=false
+bluetooth.profile.pan.panu.enabled=false
+bluetooth.profile.pbap.client.enabled=false
+bluetooth.profile.pbap.server.enabled=false
+
 
 # Dolby
 ro.vendor.platform.support.dolbyvision=false
