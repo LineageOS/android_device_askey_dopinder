@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2022 The LineageOS Project
+# Copyright (C) 2021-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -7,6 +7,9 @@
 ## Bluetooth
 BOARD_HAVE_BLUETOOTH_RTK_TV := true
 include hardware/realtek/rtkbt/rtkbt.mk
+
+PRODUCT_PACKAGES += \
+    DopinderBluetoothOverlay
 
 ## GMS
 ifeq ($(WITH_GMS),true)
@@ -20,10 +23,6 @@ PRODUCT_COPY_FILES += \
 ## Kernel Modules
 PRODUCT_PACKAGES += \
     8822cs
-
-## Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/g12-common/g12.mk)

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 The LineageOS Project
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- Device specific bluetooth overlays -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.bluetooth.dopinder"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <application android:hasCode="false" />
+    <overlay
+      android:targetPackage="com.android.bluetooth"
+      android:isStatic="true"
+      android:priority="0"/>
+</manifest>
