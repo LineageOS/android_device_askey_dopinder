@@ -1,5 +1,5 @@
-### All blobs from this list, unless pinned and noted as otherwise,
-##  are from sti6140d360-user 10 QT 20230222 release-keys.
+## All blobs from this list, unless pinned and noted as otherwise,
+## are from sti6140d360-user 10 QT 20230222 release-keys.
 
 ## Keylayout
 vendor/usr/idc/Vendor_0508_Product_0110.idc
@@ -23,7 +23,8 @@ vendor/usr/keylayout/Vendor_7545_Product_0171.kl
 
 ## DRM
 vendor/lib/liboemcrypto.so
-# From 12 STT1.211025.001.Z4 7928920 release-keys
+
+## DRM - from adt3 12 STT1.211025.001.Z4 7928920 release-keys
 vendor/lib/libsecmem.so|291be9306e69f3b53c2c3526e128c1c283a15ce1
 
 ## TEE Applets
