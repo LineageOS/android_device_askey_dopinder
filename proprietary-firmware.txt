@@ -1,0 +1,3 @@
+# Firmware - from sti6140d360-user 10 QT 20230222 release-keys - (factory image).
+
+bootloader.img
