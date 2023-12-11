@@ -1,0 +1,4 @@
+service systemcontrol /system/bin/systemcontrol_static /system/etc/mesondisplay.cfg
+    disabled
+    seclabel u:r:recovery:s0
+    override
