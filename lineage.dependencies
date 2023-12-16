@@ -5,7 +5,7 @@
   },
   {
     "repository": "android_hardware_amlogic_kernel-modules_rtl8822cs",
-    "target_path": "hardware/amlogic/kernel-modules/rtl8822cs"
+    "target_path": "kernel/amlogic/kernel-modules/rtl8822cs"
   },
   {
     "repository": "android_hardware_realtek",
