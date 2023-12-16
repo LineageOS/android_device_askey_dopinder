@@ -21,10 +21,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc \
     $(LOCAL_PATH)/init-files/init.recovery.dopinder.rc:recovery/root/init.recovery.dopinder.rc
 
-## Kernel Modules
-PRODUCT_PACKAGES += \
-    8822cs
-
 ## Keylayout (IR)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
