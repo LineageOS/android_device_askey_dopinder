@@ -22,9 +22,20 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init-files/init.amlogic.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.target.rc \
     $(LOCAL_PATH)/init-files/init.recovery.dopinder.rc:recovery/root/init.recovery.dopinder.rc
 
+<<<<<<< HEAD   (d30956 dopinder: Mount factory partition in init scripts)
 ## Kernel Modules
 PRODUCT_PACKAGES += \
     8822cs
+=======
+## Keylayout (IR)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
+
+## Netflix
+PRODUCT_PACKAGES += \
+    NetflixConfig \
+    DopinderNetflixConfigOverlay
+>>>>>>> CHANGE (0b21f3 dopinder: Properly build WLAN kernel module)
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/g12-common/g12.mk)
