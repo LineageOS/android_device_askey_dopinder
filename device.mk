@@ -25,6 +25,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     8822cs
 
+## Keylayout (IR)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
+
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/g12-common/g12.mk)
 
