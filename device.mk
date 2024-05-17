@@ -11,6 +11,9 @@ include hardware/realtek/rtkbt/rtkbt.mk
 PRODUCT_PACKAGES += \
     DopinderBluetoothOverlay
 
+## CEC
+PRODUCT_IS_ATV := true
+
 ## GMS
 ifeq ($(WITH_GMS),true)
 GMS_MAKEFILE=gms_minimal.mk
