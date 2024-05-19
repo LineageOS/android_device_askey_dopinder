@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_dopinder.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_dopinder-eng \
-    lineage_dopinder-user \
-    lineage_dopinder-userdebug
