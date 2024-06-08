@@ -3,9 +3,32 @@
 
 ## DRM
 vendor/lib/liboemcrypto.so
+vendor/lib/libsecmem.so
 
-## DRM - from adt3 12 STT1.211025.001.Z4 7928920 release-keys
-vendor/lib/libsecmem.so|291be9306e69f3b53c2c3526e128c1c283a15ce1
+## NRDP
+vendor/etc/permissions/nrdp.xml
+vendor/etc/nrdp_audio_platform_capabilities.json
+vendor/etc/nrdp_audio_platform_capabilities_ms12.json
+vendor/etc/nrdp_platform_capabilities.json
+
+## ODM
+odm/etc/firmware/firmware.le
+odm/etc/tvconfig/chmod_files.sh
+odm/etc/tvconfig/dtvkit/config.xml
+odm/etc/tvconfig/dtvkit/satellite.json
+odm/etc/tvconfig/pq/pq.db
+odm/etc/tvconfig/pq/pq_default.ini
+odm/etc/tvconfig/tv_default.cfg
+odm/etc/tvconfig/tv_default.xml
+odm/etc/tvconfig/tv_rrt_define.xml
+odm/etc/tvconfig/tv_setting_config.cfg
+odm/etc/tvconfig/tvconfig.conf
+odm/etc/tvconfig/tvscan.conf
+odm/lib/libHwAudio_dcvdec.so
+odm/lib/libHwAudio_dtshd.so
+
+## SUW (Remote Animation)
+system/priv-app/AskeySetupCustomizer/AskeySetupCustomizer.apk;OVERRIDES=DeadpoolService
 
 ## TEE Applets
 vendor/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta
