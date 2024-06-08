@@ -3,9 +3,56 @@
 
 ## DRM
 vendor/lib/liboemcrypto.so
+vendor/lib/libsecmem.so
 
-## DRM - from adt3 12 STT1.211025.001.Z4 7928920 release-keys
-vendor/lib/libsecmem.so|291be9306e69f3b53c2c3526e128c1c283a15ce1
+## Droidlogic - Device Specific
+system/etc/permissions/droidlogic-hiddenapi-package-whitelist.xml
+system_ext/etc/permissions/com.droidlogic.tv.settings.xml
+system_ext/etc/permissions/droidlogic_permissions.xml
+system_ext/lib/libsubtitlemanager_jni.so
+system_ext/lib/libsubtitlebinder.so
+system_ext/lib/libSubtitleClient.so
+system_ext/lib/libvendorfont.so
+system_ext/lib/vendor.amlogic.hardware.subtitleserver@1.0.so
+system_ext/priv-app/DroidTvSettings/DroidTvSettings.apk
+system_ext/priv-app/droidlogic-res/droidlogic-res.apk
+vendor/etc/permissions/droidlogic.software.core.xml
+vendor/etc/permissions/droidlogic.tv.software.core.xml
+vendor/etc/vintf/manifest/vendor.amlogic.hardware.subtitleserver@1.0.xml
+vendor/framework/droidlogic.software.core.jar
+vendor/framework/droidlogic.tv.software.core.jar
+vendor/lib/libsubtitlebinder.so
+vendor/lib/libSubtitleClient.so
+vendor/lib/vendor.amlogic.hardware.subtitleserver@1.0.so
+
+## NRDP
+vendor/etc/permissions/nrdp.xml
+vendor/etc/nrdp_audio_platform_capabilities.json
+vendor/etc/nrdp_audio_platform_capabilities_ms12.json
+vendor/etc/nrdp_platform_capabilities.json
+
+## ODM
+odm/etc/firmware/firmware.le
+odm/etc/tvconfig/chmod_files.sh
+odm/etc/tvconfig/dtvkit/config.xml
+odm/etc/tvconfig/dtvkit/satellite.json
+odm/etc/tvconfig/pq/pq.db
+odm/etc/tvconfig/pq/pq_default.ini
+odm/etc/tvconfig/tv_default.cfg
+odm/etc/tvconfig/tv_default.xml
+odm/etc/tvconfig/tv_rrt_define.xml
+odm/etc/tvconfig/tv_setting_config.cfg
+odm/etc/tvconfig/tvconfig.conf
+odm/etc/tvconfig/tvscan.conf
+odm/lib/libHwAudio_dcvdec.so
+odm/lib/libHwAudio_dtshd.so
+
+## SUW (Remote Animation)
+system/priv-app/AskeyAutoPair/AskeyAutoPair.apk
+system/priv-app/AskeySetupCustomizer/AskeySetupCustomizer.apk;OVERRIDES=DeadpoolService
+
+## TEE - from deadpool - adt3-user 13 TTT1.230205.001 9565391 release-keys
+vendor/bin/hw/android.hardware.security.keymint-service.amlogic|0fad4ea718c26abd0d1faad369de76edb3efdfa4
 
 ## TEE Applets
 vendor/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta
