@@ -10,6 +10,7 @@ set -e
 
 export DEVICE=dopinder
 export DEVICE_COMMON=g12-common
+export TARGET_SOC=g12a
 export VENDOR=askey
 export VENDOR_COMMON=amlogic
 
