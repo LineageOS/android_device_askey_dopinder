@@ -1,0 +1,1 @@
+allow platform_app systemcontrol_hwservice:hwservice_manager { add find };
