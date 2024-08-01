@@ -1,3 +1,3 @@
-# Firmware - from sti6140d360-user 10 QT 20230222 release-keys - (factory image).
+# Firmware - from sti6140d360-user 12 SC 20240424 release-keys - (OTA image).
 
 bootloader.img

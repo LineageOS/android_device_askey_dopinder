@@ -1,5 +1,5 @@
 ## All blobs from this list, unless pinned and noted as otherwise,
-## are from sti6140d360-user 12 SC 20231117 release-keys.
+## are from sti6140d360-user 12 SC 20240424 release-keys.
 
 ## DRM
 vendor/lib/liboemcrypto.so
