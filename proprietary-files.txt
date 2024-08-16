@@ -10,6 +10,7 @@ system/etc/permissions/droidlogic-hiddenapi-package-whitelist.xml
 system_ext/etc/permissions/com.droidlogic.tv.settings.xml
 system_ext/etc/permissions/droidlogic_permissions.xml
 system_ext/lib/libSubtitleClient.so
+system_ext/lib/libamavutils.so
 system_ext/lib/libsubtitlebinder.so
 system_ext/lib/libsubtitlemanager_jni.so
 system_ext/lib/libvendorfont.so
@@ -21,9 +22,9 @@ vendor/etc/permissions/droidlogic.tv.software.core.xml
 vendor/etc/vintf/manifest/vendor.amlogic.hardware.subtitleserver@1.0.xml
 vendor/framework/droidlogic.software.core.jar
 vendor/framework/droidlogic.tv.software.core.jar
-vendor/lib/libSubtitleClient.so
-vendor/lib/libsubtitlebinder.so
-vendor/lib/vendor.amlogic.hardware.subtitleserver@1.0.so
+vendor/lib/libSubtitleClient.so;MODULE_SUFFIX=_vendor
+vendor/lib/libsubtitlebinder.so;MODULE_SUFFIX=_vendor
+vendor/lib/vendor.amlogic.hardware.subtitleserver@1.0.so;MODULE_SUFFIX=_vendor
 
 ## Netflix
 system/system/etc/sysconfig/netflix.xml
