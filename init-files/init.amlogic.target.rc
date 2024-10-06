@@ -1,0 +1,2 @@
+on fs
+    mount ext4 /dev/block/platform/ffe07000.emmc/by-name /mnt/vendor/factory noatime nosuid nodev nodelalloc nomblk_io_submit errors=panic wait check formattable nofail
