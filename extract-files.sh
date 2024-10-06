@@ -8,6 +8,12 @@
 
 function blob_fixup() {
     case "${1}" in
+        vendor/bin/hw/android.hardware.security.keymint-service.amlogic)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "android.hardware.security.keymint-V1-ndk_platform.so" "android.hardware.security.keymint-V3-ndk.so" "${2}"
+            "${PATCHELF}" --replace-needed "android.hardware.security.secureclock-V1-ndk_platform.so" "android.hardware.security.secureclock-V1-ndk.so" "${2}"
+            "${PATCHELF}" --replace-needed "android.hardware.security.sharedsecret-V1-ndk_platform.so" "android.hardware.security.sharedsecret-V1-ndk.so" "${2}"
+            ;;
         vendor/etc/init/tee-supplicant.rc)
             [ "$2" = "" ] && return 0
             sed -i 's#/vendor/lib/#/vendor/lib/modules/#g' "${2}"
