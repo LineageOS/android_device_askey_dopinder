@@ -67,7 +67,7 @@ system/priv-app/AskeyAutoPair/AskeyAutoPair.apk
 system/priv-app/AskeySetupCustomizer/AskeySetupCustomizer.apk;OVERRIDES=DeadpoolService
 
 ## TEE - from adt3-user 13 TTT1.230205.001 9565391 release-keys
-vendor/bin/hw/android.hardware.security.keymint-service.amlogic|0fad4ea718c26abd0d1faad369de76edb3efdfa4
+vendor/bin/hw/android.hardware.security.keymint-service.amlogic|0fad4ea718c26abd0d1faad369de76edb3efdfa4|6d706e5530f9953978f51c38bbc2fb5feb4974cf
 vendor/bin/tee-supplicant|37274543a5c6b3f926b1a3658097369f6aae6b20
 vendor/bin/tee_preload_fw|cf7574e36cb1b2c341f5a9044a32460be0ff2891
 vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc|c0d12ddad0ee0d0a20e3a3b272e8724c384b5de6
