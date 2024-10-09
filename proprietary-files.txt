@@ -25,6 +25,14 @@ vendor/lib/libSubtitleClient.so
 vendor/lib/libsubtitlebinder.so
 vendor/lib/vendor.amlogic.hardware.subtitleserver@1.0.so
 
+## Netflix
+system/system/etc/sysconfig/netflix.xml
+vendor/bin/hw/android.hardware.drm@1.4-service.netflix
+vendor/etc/init/android.hardware.drm@1.4-service.netflix.rc
+vendor/etc/permissions/droidlogic.software.netflix.xml
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.netflix.xml
+vendor/lib/libnetflixplugin.so
+
 ## NRDP
 vendor/etc/nrdp_audio_platform_capabilities.json
 vendor/etc/nrdp_audio_platform_capabilities_ms12.json
