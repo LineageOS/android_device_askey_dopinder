@@ -25,6 +25,14 @@ vendor/lib/libSubtitleClient.so
 vendor/lib/libsubtitlebinder.so
 vendor/lib/vendor.amlogic.hardware.subtitleserver@1.0.so
 
+## Netflix
+system/system/etc/sysconfig/netflix.xml
+vendor/bin/hw/android.hardware.drm@1.4-service.netflix
+vendor/etc/init/android.hardware.drm@1.4-service.netflix.rc
+vendor/etc/permissions/droidlogic.software.netflix.xml
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.netflix.xml
+vendor/lib/libnetflixplugin.so
+
 ## NRDP
 vendor/etc/nrdp_audio_platform_capabilities.json
 vendor/etc/nrdp_audio_platform_capabilities_ms12.json
@@ -47,12 +55,28 @@ odm/etc/tvconfig/tvscan.conf
 odm/lib/libHwAudio_dcvdec.so
 odm/lib/libHwAudio_dtshd.so
 
+## Playready
+vendor/bin/hw/android.hardware.drm@1.4-service.playready
+vendor/etc/init/android.hardware.drm@1.4-service.playready.rc
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.playready.xml
+vendor/lib/libplayready.so
+vendor/lib/libplayreadymediadrmplugin.so
+
 ## SUW (Remote Animation)
 system/priv-app/AskeyAutoPair/AskeyAutoPair.apk
 system/priv-app/AskeySetupCustomizer/AskeySetupCustomizer.apk;OVERRIDES=DeadpoolService
 
-## TEE - SOC Specific - from deadpool - adt3-user 13 TTT1.230205.001 9565391 release-keys
+## TEE - from adt3-user 13 TTT1.230205.001 9565391 release-keys
 vendor/bin/hw/android.hardware.security.keymint-service.amlogic|0fad4ea718c26abd0d1faad369de76edb3efdfa4
+vendor/bin/tee-supplicant|37274543a5c6b3f926b1a3658097369f6aae6b20
+vendor/bin/tee_preload_fw|cf7574e36cb1b2c341f5a9044a32460be0ff2891
+vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc|c0d12ddad0ee0d0a20e3a3b272e8724c384b5de6
+vendor/etc/init/tee-supplicant.rc|e02d107bf745ec9957c2e94647cfa1d6357efe81|e62d6e60e52d4f4401872e875d6eb988fab47d8e
+vendor/etc/init/tee_preload_fw.rc|fc797d7cd4118ac36e258a2ee4fb7bc885740882
+vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml|672d9b78a504fbd1eef56853e710e7986a3cd2f8
+vendor/lib/libtee_load_video_fw.so|a85c4540672bd81840453c36bf9091961f86571b
+vendor/lib/libteec.so|2250a64472d10c5e2f28688caa597864bec75919
+-vendor/etc/vintf/manifest/android.hardware.security.keymint-service.amlogic.xml|d8f1dec254cad9c5111ced096d4fb417e74fb59a
 
 ## TEE Applets
 vendor/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta
@@ -64,3 +88,9 @@ vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta
 vendor/lib/teetz/e043cde0-61d0-11e5-9c260002a5d5c5ca.ta
 vendor/lib/teetz/e92a43ab-b4c8-4450-aa12-b1516259613b.ta
 vendor/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta
+
+## TEE HDCP
+vendor/bin/tee_hdcp
+vendor/bin/tee_key_inject
+vendor/etc/init/tee_hdcp.rc
+vendor/etc/init/tee_key_inject.rc
