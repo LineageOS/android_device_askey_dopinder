@@ -15,7 +15,6 @@ system_ext/lib/libsubtitlebinder.so
 system_ext/lib/libsubtitlemanager_jni.so
 system_ext/lib/libvendorfont.so
 system_ext/lib/vendor.amlogic.hardware.subtitleserver@1.0.so
-system_ext/priv-app/DroidTvSettings/DroidTvSettings.apk
 system_ext/priv-app/droidlogic-res/droidlogic-res.apk
 vendor/etc/permissions/droidlogic.software.core.xml
 vendor/etc/permissions/droidlogic.tv.software.core.xml
