@@ -24,15 +24,12 @@ PRODUCT_MANUFACTURER := askey
 PRODUCT_MODEL := sti6140d360
 PRODUCT_NAME := lineage_dopinder
 
-PRODUCT_SYSTEM_NAME := sti6140d360
-PRODUCT_SYSTEM_DEVICE := sti6140d360
-
 PRODUCT_ATV_CLIENTID_BASE := ATV00100021
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=dopinder \
-    PRIVATE_BUILD_DESC="sti6140d360-user 12 SC 20240424 release-keys" \
-    TARGET_DEVICE=$(PRODUCT_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
-
-BUILD_FINGERPRINT := Onn/sti6140d360/sti6140d360:12/SC/20240424:user/release-keys
+    BuildDesc="sti6140d360-user 12 SC 20240424 release-keys" \
+    BuildFingerprint=Onn/sti6140d360/sti6140d360:12/SC/20240424:user/release-keys \
+    DeviceName=dopinder \
+    DeviceProduct=dopinder \
+    SystemDevice=sti6140d360 \
+    SystemName=sti6140d360
