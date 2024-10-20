@@ -1,3 +1,5 @@
+<<<<<<< PATCH SET (abc730 dopinder: Adopt Python extract utils)
+=======
 #!/bin/bash
 #
 # SPDX-FileCopyrightText: 2016 The CyanogenMod Project
@@ -49,3 +51,4 @@ export VENDOR_BRAND="${VENDOR}"
 export VENDOR_COMMON=amlogic
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"
+>>>>>>> BASE      (fcc836 dopinder: Fix sepolicy path)
