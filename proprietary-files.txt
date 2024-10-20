@@ -26,7 +26,7 @@ vendor/lib/libsubtitlebinder.so;MODULE_SUFFIX=_vendor
 vendor/lib/vendor.amlogic.hardware.subtitleserver@1.0.so;MODULE_SUFFIX=_vendor
 
 ## Netflix
-system/system/etc/sysconfig/netflix.xml
+system/etc/sysconfig/netflix.xml
 vendor/bin/hw/android.hardware.drm@1.4-service.netflix
 vendor/etc/init/android.hardware.drm@1.4-service.netflix.rc
 vendor/etc/permissions/droidlogic.software.netflix.xml
@@ -71,7 +71,7 @@ vendor/etc/init/tee_preload_fw.rc|fc797d7cd4118ac36e258a2ee4fb7bc885740882
 vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml|672d9b78a504fbd1eef56853e710e7986a3cd2f8
 vendor/lib/libtee_load_video_fw.so|a85c4540672bd81840453c36bf9091961f86571b
 vendor/lib/libteec.so|2250a64472d10c5e2f28688caa597864bec75919
--vendor/etc/vintf/manifest/android.hardware.security.keymint-service.amlogic.xml|d8f1dec254cad9c5111ced096d4fb417e74fb59a
+vendor/etc/vintf/manifest/android.hardware.security.keymint-service.amlogic.xml|d8f1dec254cad9c5111ced096d4fb417e74fb59a
 
 ## TEE Applets
 vendor/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta
