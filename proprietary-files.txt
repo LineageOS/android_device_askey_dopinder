@@ -26,7 +26,7 @@ vendor/lib/libsubtitlebinder.so;MODULE_SUFFIX=_vendor
 vendor/lib/vendor.amlogic.hardware.subtitleserver@1.0.so;MODULE_SUFFIX=_vendor
 
 ## Netflix
-system/system/etc/sysconfig/netflix.xml
+system/etc/sysconfig/netflix.xml
 vendor/bin/hw/android.hardware.drm@1.4-service.netflix
 vendor/etc/init/android.hardware.drm@1.4-service.netflix.rc
 vendor/etc/permissions/droidlogic.software.netflix.xml
