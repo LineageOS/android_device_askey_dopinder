@@ -34,6 +34,8 @@ PRODUCT_PACKAGES += \
 ## Wi-Fi
 PRODUCT_CFI_INCLUDE_PATHS += hardware/realtek/wlan/wpa_supplicant_8_lib
 
+$(error $(PRODUCT_CFI_INCLUDE_PATHS))
+
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/g12-common/g12.mk)
 
