@@ -1,3 +1,8 @@
+##
+## SPDX-FileCopyrightText: The LineageOS Project
+## SPDX-License-Identifier: Apache-2.0
+##
+
 service systemcontrol /system/bin/systemcontrol_static /system/etc/mesondisplay.cfg
     disabled
     seclabel u:r:recovery:s0
