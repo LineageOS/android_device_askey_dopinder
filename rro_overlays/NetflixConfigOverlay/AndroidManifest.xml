@@ -4,9 +4,9 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.lineageos.netflixconfig.overlay">
-    <application android:hasCode="false" />
+          package="org.lineageos.netflixconfig.overlay">
     <overlay android:targetPackage="org.lineageos.netflixconfig"
-        android:targetName="NetflixConfigResources"
-        android:isStatic="true" />
+             android:targetName="NetflixConfigResources"
+             android:isStatic="true"
+             android:priority="0" />
 </manifest>
