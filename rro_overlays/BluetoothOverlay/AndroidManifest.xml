@@ -4,7 +4,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.android.bluetooth.dopinder">
+          package="com.android.bluetooth.overlay">
     <overlay android:targetPackage="com.android.bluetooth"
              android:isStatic="true"
              android:priority="0" />

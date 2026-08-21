@@ -4,5 +4,5 @@
 //
 
 runtime_resource_overlay {
-    name: "DopinderBluetoothOverlay",
+    name: "BluetoothOverlayTarget",
 }

@@ -8,7 +8,7 @@ BOARD_HAVE_BLUETOOTH_RTK_TV := true
 include hardware/realtek/rtkbt/rtkbt.mk
 
 PRODUCT_PACKAGES += \
-    DopinderBluetoothOverlay
+    BluetoothOverlayTarget
 
 ## GMS
 ifeq ($(WITH_GMS),true)
