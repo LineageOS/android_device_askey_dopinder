@@ -1,8 +1,3 @@
-#
-# SPDX-FileCopyrightText: The LineageOS Project
-# SPDX-License-Identifier: Apache-2.0
-#
-
 ## Bluetooth
 bluetooth.device.default_name=ONN 4K Box
 bluetooth.profile.a2dp.sink.enabled=false
@@ -16,7 +11,7 @@ bluetooth.profile.pan.panu.enabled=false
 bluetooth.profile.pbap.client.enabled=false
 bluetooth.profile.pbap.server.enabled=false
 
-# Dolby
+## Dolby
 ro.vendor.platform.support.dolbyvision=false
 vendor.media.support.dolbyvision=false
 
