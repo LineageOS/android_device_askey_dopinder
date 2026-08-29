@@ -1,0 +1,25 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.amlogic.target.rc",
+    src: "init.amlogic.target.rc",
+    sub_dir: "init/hw",
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "init.amlogic.wifi_buildin.rc",
+    src: "init.amlogic.wifi_buildin.rc",
+    sub_dir: "init/hw",
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "init.recovery.dopinder.rc",
+    src: "init.recovery.dopinder.rc",
+    sub_dir: "init",
+    recovery: true,
+}
