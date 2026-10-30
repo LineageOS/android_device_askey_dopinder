@@ -45,11 +45,16 @@ blob_fixups: blob_fixups_user_type = {
     'system_ext/lib/libvendorfont.so': blob_fixup()
         .add_needed('libcrypto_shim.so'),
     'vendor/bin/hw/android.hardware.security.keymint-service.amlogic': blob_fixup()
-        .replace_needed('android.hardware.security.keymint-V1-ndk_platform.so', 'android.hardware.security.keymint-V4-ndk.so')
-        .replace_needed('android.hardware.security.secureclock-V1-ndk_platform.so', 'android.hardware.security.secureclock-V1-ndk.so')
-        .replace_needed('android.hardware.security.sharedsecret-V1-ndk_platform.so', 'android.hardware.security.sharedsecret-V1-ndk.so'),
-    'vendor/etc/init/tee-supplicant.rc': blob_fixup()
-        .regex_replace('/vendor/lib/', '/vendor/lib/modules/')
+        .replace_needed('lib_android_keymaster_keymint_utils.so', 'lib_android_keymaster_akeymint_utils.so')
+        .replace_needed('libkeymint.so', 'libakeymint.so')
+        .replace_needed('libkeymint_remote_prov_support.so', 'libakeymint_remote_prov_support.so'),
+    'vendor/lib/libakeymint.so': blob_fixup()
+        .replace_needed('lib_android_keymaster_keymint_utils.so', 'lib_android_keymaster_akeymint_utils.so'),
+    'vendor/lib/libakeymint_remote_prov_support.so': blob_fixup()
+         .replace_needed('libcppcose_rkp.so', 'libacppcose_rkp.so')
+         .replace_needed('libbase.so', 'libbase-v33.so'),
+    'vendor/lib/egl/libGLES_mali.so': blob_fixup()
+        .replace_needed('android.hardware.graphics.common-V4-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
