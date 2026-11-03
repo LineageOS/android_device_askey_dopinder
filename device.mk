@@ -18,7 +18,6 @@ endif
 ## Init
 PRODUCT_PACKAGES += \
     init.amlogic.target.rc \
-    init.amlogic.wifi_buildin.rc \
     init.recovery.dopinder.rc
 
 ## Keylayout (IR)
