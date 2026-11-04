@@ -19,6 +19,9 @@ vendor.media.support.dolbyvision=false
 ro.vendor.nrdp.modelgroup=STI6140D360
 ro.vendor.nrdp.oemmodel=Onn_sti6140d360
 
+## Recovery
+ro.minui.blacklist_input_devices=cec_input
+
 ## SOC
 ro.soc.model=AMLS905X2
 
