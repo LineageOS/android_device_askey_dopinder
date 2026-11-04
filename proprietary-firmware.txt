@@ -1,3 +1,3 @@
 # Firmware - from sti6140d360-user 12 SC 20240424 release-keys - (OTA image).
 
-bootloader.img
+bootloader.img|1c399aac0d436e0d21616c89c6929d05f12eeca7
