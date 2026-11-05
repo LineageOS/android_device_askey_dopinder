@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bccdb124_5994f41e",
+        "filename": "init/init.amlogic.wifi_buildin.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-05T07:59:01Z",
+      "side": 0,
+      "message": "Not equivalent",
+      "revId": "c8cb71d63e15b314f6e5ce1ec2d04d9f07331af9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
