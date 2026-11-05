@@ -18,8 +18,10 @@ system_ext/lib/vendor.amlogic.hardware.subtitleserver@1.0.so
 system_ext/priv-app/droidlogic-res/droidlogic-res.apk
 vendor/bin/hw/subtitleserver
 vendor/etc/init/subtitleserver.rc
+vendor/etc/permissions/droidlogic.software.core.xml
 vendor/etc/permissions/droidlogic.tv.software.core.xml
 vendor/etc/vintf/manifest/vendor.amlogic.hardware.subtitleserver@1.0.xml
+vendor/framework/droidlogic.software.core.jar
 vendor/framework/droidlogic.tv.software.core.jar
 vendor/lib/libsubtitlemanager_jni.so;MODULE_SUFFIX=_vendor
 vendor/lib/libvendorfont.so;MODULE_SUFFIX=_vendor
