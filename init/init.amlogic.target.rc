@@ -4,7 +4,6 @@
 ##
 
 on fs
-    wait /dev/block/platform/ffe07000.emmc/factory
+    wait /dev/block/platform/ffe07000.emmc/by-name/factory
     mkdir /mnt/vendor/factory 0770 system system
-    mount ext4 /dev/block/platform/ffe07000.emmc/by-name/factory /mnt/vendor/factory noatime nosuid nodev nodelalloc nomblk_io_submit
-    restorecon -R /mnt/vendor/factory
+    mount vfat /dev/block/platform/ffe07000.emmc/by-name/factory /mnt/vendor/factory noatime nodiratime nosuid nodev noexec dmask=0022
