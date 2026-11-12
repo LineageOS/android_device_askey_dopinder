@@ -42,6 +42,8 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'system_ext/priv-app/droidlogic-res/droidlogic-res.apk': blob_fixup()
+        .apktool_patch('blob-patches/droidlogic-res.patch'),
     'system_ext/lib/libvendorfont.so': blob_fixup()
         .add_needed('libcrypto_shim.so'),
     'vendor/bin/hw/android.hardware.security.keymint-service.amlogic': blob_fixup()
