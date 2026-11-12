@@ -1,0 +1,34 @@
+diff --git a/smali/com/droidlogic/DroidLogicBenchService$ProcessObserver.smali b/smali/com/droidlogic/DroidLogicBenchService$ProcessObserver.smali
+index d393a69..292cc44 100644
+--- a/smali/com/droidlogic/DroidLogicBenchService$ProcessObserver.smali
++++ b/smali/com/droidlogic/DroidLogicBenchService$ProcessObserver.smali
+@@ -317,6 +317,12 @@
+     return-void
+ .end method
+ 
++.method public onProcessStarted(IIILjava/lang/String;Ljava/lang/String;)V
++    .locals 0
++
++    return-void
++.end method
++
+ .method public onProcessDied(II)V
+     .locals 0
+ 
+diff --git a/smali/com/droidlogic/NetflixService$ProcessObserver.smali b/smali/com/droidlogic/NetflixService$ProcessObserver.smali
+index 3212088..b774037 100644
+--- a/smali/com/droidlogic/NetflixService$ProcessObserver.smali
++++ b/smali/com/droidlogic/NetflixService$ProcessObserver.smali
+@@ -133,6 +133,12 @@
+     return-void
+ .end method
+ 
++.method public onProcessStarted(IIILjava/lang/String;Ljava/lang/String;)V
++    .locals 0
++
++    return-void
++.end method
++
+ .method public onProcessDied(II)V
+     .locals 0
+ 
