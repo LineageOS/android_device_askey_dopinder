@@ -11,6 +11,7 @@ system_ext/etc/permissions/com.droidlogic.tv.settings.xml
 system_ext/etc/permissions/droidlogic_permissions.xml
 system_ext/lib/libSubtitleClient.so
 system_ext/lib/libamavutils.so;MODULE_SUFFIX=_system_ext
+system_ext/lib/libjniuevent.so
 system_ext/lib/libsubtitlebinder.so
 system_ext/lib/libsubtitlemanager_jni.so
 system_ext/lib/libvendorfont.so
