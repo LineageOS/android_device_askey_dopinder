@@ -78,13 +78,14 @@ vendor/lib/libkeymint.so:vendor/lib/libakeymint.so;FIX_SONAME
 vendor/lib/libkeymint_remote_prov_support.so:vendor/lib/libakeymint_remote_prov_support.so;FIX_SONAME
 vendor/lib/libtee_load_video_fw.so
 
-## TEE Applets - from sti6140d360-user 12 SC 20240424 release-keys
-vendor/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta|86c7f65bea50c9f5770df64c928969329d2fc2f4
-vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta|fa1bef4fd7628b23315ad661dfabf56b22620773
-vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta|04634221f1c1d0436961fb6ad5daef79cadb8eaa
-vendor/lib/teetz/8efb1e1c-37e5-4326-a5d6-8c33726c7d57.ta|2cacf611bb2f49fb62c5e9368ba052a7c635e856
-vendor/lib/teetz/9a04f079-9840-4286-ab92-e65be0885f95.ta|ed9654729581155f0ce6c7eba2567c2d376e8c90
-vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta|996b035ba7c7a2849bafac710cb2aaf725d81825
-vendor/lib/teetz/e043cde0-61d0-11e5-9c260002a5d5c5ca.ta|b732d3725ef9c7b052badd2c427677962cafb29d
-vendor/lib/teetz/e92a43ab-b4c8-4450-aa12-b1516259613b.ta|b96658feb33625e3313c2e0b498d367583c24d23
-vendor/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta|c77109601d387a650be01dda1352ffdfc0ad8914
+## TEE Applets
+vendor/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta
+vendor/lib/teetz/1987f328-1755-9321-5441-43494343544c.ta
+vendor/lib/teetz/2088528d-102a-4716-b940-23fd9be04adf.ta
+vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta
+vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta
+vendor/lib/teetz/8efb1e1c-37e5-4326-a5d6-8c33726c7d57.ta
+vendor/lib/teetz/9a04f079-9840-4286-ab92-e65be0885f95.ta
+vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta
+vendor/lib/teetz/e92a43ab-b4c8-4450-aa12-b1516259613b.ta
+vendor/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta
