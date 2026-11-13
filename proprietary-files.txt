@@ -60,12 +60,14 @@ system/priv-app/AskeySetupCustomizer/AskeySetupCustomizer.apk;OVERRIDES=Deadpool
 
 ## TEE
 vendor/bin/hw/android.hardware.security.keymint-service.amlogic
+vendor/bin/hdcp_tx22
 vendor/bin/tee-supplicant
 vendor/bin/tee_hdcp
 vendor/bin/tee_key_inject
 vendor/bin/tee_preload_fw
 vendor/bin/tee_provision
 vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc
+vendor/etc/init/hdcp_tx22.rc
 vendor/etc/init/tee-supplicant.rc
 vendor/etc/init/tee_hdcp.rc
 vendor/etc/init/tee_key_inject.rc
