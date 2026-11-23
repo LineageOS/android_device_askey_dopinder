@@ -7,9 +7,6 @@
 BOARD_HAVE_BLUETOOTH_RTK_TV := true
 include hardware/realtek/rtkbt/rtkbt.mk
 
-PRODUCT_PACKAGES += \
-    BluetoothOverlayTarget
-
 ## GMS
 ifeq ($(WITH_GMS),true)
 GMS_MAKEFILE=gms_minimal.mk
