@@ -36,10 +36,6 @@ endif
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-## SELinux
-SELINUX_IGNORE_NEVERALLOWS := true
-BOARD_VENDOR_SEPOLICY_DIRS += device/askey/dopinder/sepolicy/vendor
-
 ## Wi-Fi
 BOARD_WLAN_DEVICE := realtek
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
