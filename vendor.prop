@@ -1,3 +1,6 @@
+## Attestation
+ro.product.vendor.device=sti6140d360
+
 ## Bluetooth
 bluetooth.device.default_name=ONN 4K Box
 bluetooth.profile.a2dp.sink.enabled=false
