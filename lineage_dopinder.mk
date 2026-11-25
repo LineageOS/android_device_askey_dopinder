@@ -26,8 +26,8 @@ PRODUCT_NAME := lineage_dopinder
 PRODUCT_ATV_CLIENTID_BASE := ATV00100021
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="sti6140d360-user 12 SC 20240424 release-keys" \
-    BuildFingerprint=Onn/sti6140d360/sti6140d360:12/SC/20240424:user/release-keys \
+    BuildDesc="sti6140d360-user 14 UK 20250319 release-keys" \
+    BuildFingerprint=Onn/sti6140d360/sti6140d360:14/UK/20250319:user/release-keys \
     DeviceName=dopinder \
     DeviceProduct=sti6140d360 \
     SystemDevice=sti6140d360 \
